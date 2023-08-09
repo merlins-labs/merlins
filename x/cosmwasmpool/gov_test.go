@@ -10,7 +10,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/merlins-labs/merlins/v17/x/cosmwasmpool/types"
+	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
 )
 
 type CWPoolGovSuite struct {

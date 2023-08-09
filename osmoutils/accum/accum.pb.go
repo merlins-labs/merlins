@@ -197,9 +197,9 @@ func (m *Record) GetOptions() *Options {
 }
 
 func init() {
-	proto.RegisterType((*AccumulatorContent)(nil), "merlins.accum.v1beta1.AccumulatorContent")
-	proto.RegisterType((*Options)(nil), "merlins.accum.v1beta1.Options")
-	proto.RegisterType((*Record)(nil), "merlins.accum.v1beta1.Record")
+	proto.RegisterType((*AccumulatorContent)(nil), "osmosis.accum.v1beta1.AccumulatorContent")
+	proto.RegisterType((*Options)(nil), "osmosis.accum.v1beta1.Options")
+	proto.RegisterType((*Record)(nil), "osmosis.accum.v1beta1.Record")
 }
 
 func init() { proto.RegisterFile("merlins/accum/v1beta1/accum.proto", fileDescriptor_4866f7c74a169dc2) }

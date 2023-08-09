@@ -36,8 +36,8 @@ import (
 	icq "github.com/cosmos/ibc-apps/modules/async-icq/v4"
 	icqtypes "github.com/cosmos/ibc-apps/modules/async-icq/v4/types"
 
-	"github.com/merlins-labs/merlins/v17/x/cosmwasmpool"
-	cosmwasmpooltypes "github.com/merlins-labs/merlins/v17/x/cosmwasmpool/types"
+	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool"
+	cosmwasmpooltypes "github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
 	downtimedetector "github.com/merlins-labs/merlins/v17/x/downtime-detector"
 	downtimetypes "github.com/merlins-labs/merlins/v17/x/downtime-detector/types"
 	"github.com/merlins-labs/merlins/v17/x/gamm"

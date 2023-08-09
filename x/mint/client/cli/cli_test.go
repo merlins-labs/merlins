@@ -64,7 +64,7 @@ func (s *IntegrationTestSuite) TestGetCmdQueryParams() {
   staking: "0.400000000000000000"
 epoch_identifier: week
 genesis_epoch_provisions: "4038461.53846154"
-mint_denom: umer
+mint_denom: stake
 minting_rewards_distribution_start_epoch: "0"
 reduction_factor: "0.500000000000000000"
 reduction_period_in_epochs: "156"

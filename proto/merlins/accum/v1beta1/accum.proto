@@ -1,5 +1,5 @@
 syntax = "proto3";
-package merlins.accum.v1beta1;
+package osmosis.accum.v1beta1;
 
 import "gogoproto/gogo.proto";
 import "cosmos/base/v1beta1/coin.proto";

@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/merlins-labs/merlins/v17/x/cosmwasmpool/types"
+	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
 )
 
 type CWPoolGovTypesSuite struct {

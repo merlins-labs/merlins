@@ -6,7 +6,7 @@ require (
 	github.com/cosmos/cosmos-sdk v0.47.3
 	github.com/ignite/cli v0.23.0
 	github.com/osmosis-labs/osmosis/osmoutils v0.0.0-20230623115558-38aaab07d343
-	github.com/merlins-labs/merlins/v16 v16.0.0-20230630175215-d5fcd089a71c
+	github.com/osmosis-labs/osmosis/v16 v16.0.0-20230630175215-d5fcd089a71c
 	github.com/osmosis-labs/osmosis/x/epochs v0.0.0-20230328024000-175ec88e4304
 
 )
@@ -146,11 +146,11 @@ require (
 replace (
 	// merlins-patched wasmd
 	// ToDo: replace the commit hash with v0.31.0-fury-v15 once the version is tagged
-	github.com/CosmWasm/wasmd => github.com/merlins-labs/wasmd v0.31.0-fury-v16
+	github.com/CosmWasm/wasmd => github.com/osmosis-labs/wasmd v0.31.0-osmo-v16
 	// dragonberry
 	github.com/confio/ics23/go => github.com/cosmos/cosmos-sdk/ics23/go v0.8.0
-	// Our cosmos-sdk branch is:  https://github.com/merlins-labs/cosmos-sdk, current branch: v16.x. Direct commit link: https://github.com/merlins-labs/cosmos-sdk/commit/ed4eb883f2a65bd5343e9d2f6186060f45294cb2
-	github.com/cosmos/cosmos-sdk => github.com/merlins-labs/cosmos-sdk v0.45.0-rc1.0.20230703010110-ed4eb883f2a6
+	// Our cosmos-sdk branch is:  https://github.com/osmosis-labs/cosmos-sdk, current branch: v16.x. Direct commit link: https://github.com/osmosis-labs/cosmos-sdk/commit/ed4eb883f2a65bd5343e9d2f6186060f45294cb2
+	github.com/cosmos/cosmos-sdk => github.com/osmosis-labs/cosmos-sdk v0.45.0-rc1.0.20230703010110-ed4eb883f2a6
 	// use cosmos-compatible protobufs
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
 

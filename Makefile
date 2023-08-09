@@ -204,7 +204,7 @@ update-sdk-version:
 	@echo "Updating version to $(VERSION)"
 	@for modfile in $(MODFILES); do \
 		if [ -e "$$modfile" ]; then \
-			sed -i '' 's|github.com/merlins-labs/cosmos-sdk v[0-9a-z.\-]*|github.com/merlins-labs/cosmos-sdk $(VERSION)|g' $$modfile; \
+			sed -i '' 's|github.com/osmosis-labs/cosmos-sdk v[0-9a-z.\-]*|github.com/osmosis-labs/cosmos-sdk $(VERSION)|g' $$modfile; \
 			cd `dirname $$modfile`; \
 			go mod tidy; \
 			cd - > /dev/null; \

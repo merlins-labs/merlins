@@ -51,9 +51,9 @@ message PoolData {
 message PositionData {
   Position position = 1;
   uint64 lock_id = 2 [ (gogoproto.moretags) = "yaml:\"lock_id\"" ];
-  merlins.accum.v1beta1.Record spread_reward_accum_record = 3
+  osmosis.accum.v1beta1.Record spread_reward_accum_record = 3
       [ (gogoproto.nullable) = false ];
-  repeated merlins.accum.v1beta1.Record uptime_accum_records = 4
+  repeated osmosis.accum.v1beta1.Record uptime_accum_records = 4
       [ (gogoproto.nullable) = false ];
 }
 
@@ -81,5 +81,5 @@ message AccumObject {
   // Accumulator's name (pulled from AccumulatorContent)
   string name = 1 [ (gogoproto.moretags) = "yaml:\"name\"" ];
 
-  merlins.accum.v1beta1.AccumulatorContent accum_content = 2;
+  osmosis.accum.v1beta1.AccumulatorContent accum_content = 2;
 }

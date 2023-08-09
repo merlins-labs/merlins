@@ -8,7 +8,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/msgservice"
 
-	"github.com/merlins-labs/merlins/v17/x/cosmwasmpool/types"
+	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
 	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
 )
 
