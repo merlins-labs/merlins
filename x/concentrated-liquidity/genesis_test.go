@@ -12,11 +12,11 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmoutils/accum"
 	furyapp "github.com/merlins-labs/merlins/v17/app"
-	cl "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity"
-	clmodule "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/clmodule"
-	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/model"
-	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
-	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types/genesis"
+	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
+	clmodule "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/clmodule"
+	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
+	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types/genesis"
 )
 
 type singlePoolGenesisEntry struct {

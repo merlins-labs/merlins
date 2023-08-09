@@ -6,9 +6,9 @@ import (
 	icqtypes "github.com/cosmos/ibc-apps/modules/async-icq/v4/types"
 
 	"github.com/merlins-labs/merlins/v17/app/upgrades"
-	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
-	protorevtypes "github.com/merlins-labs/merlins/v17/x/protorev/types"
-	valsetpreftypes "github.com/merlins-labs/merlins/v17/x/valset-pref/types"
+	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	protorevtypes "github.com/osmosis-labs/osmosis/v17/x/protorev/types"
+	valsetpreftypes "github.com/osmosis-labs/osmosis/v17/x/valset-pref/types"
 )
 
 // UpgradeName defines the on-chain upgrade name for the Merlins v15 upgrade.

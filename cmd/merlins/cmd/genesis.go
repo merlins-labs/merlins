@@ -27,9 +27,9 @@ import (
 
 	appParams "github.com/merlins-labs/merlins/v17/app/params"
 
-	incentivestypes "github.com/merlins-labs/merlins/v17/x/incentives/types"
-	minttypes "github.com/merlins-labs/merlins/v17/x/mint/types"
-	poolincentivestypes "github.com/merlins-labs/merlins/v17/x/pool-incentives/types"
+	incentivestypes "github.com/osmosis-labs/osmosis/v17/x/incentives/types"
+	minttypes "github.com/osmosis-labs/osmosis/v17/x/mint/types"
+	poolincentivestypes "github.com/osmosis-labs/osmosis/v17/x/pool-incentives/types"
 	epochstypes "github.com/osmosis-labs/osmosis/x/epochs/types"
 )
 

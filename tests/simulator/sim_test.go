@@ -15,7 +15,7 @@ import (
 
 	furysim "github.com/merlins-labs/merlins/v17/simulation/executor"
 	"github.com/merlins-labs/merlins/v17/simulation/simtypes/simlogger"
-	txfeetypes "github.com/merlins-labs/merlins/v17/x/txfees/types"
+	txfeetypes "github.com/osmosis-labs/osmosis/v17/x/txfees/types"
 )
 
 // Profile with:

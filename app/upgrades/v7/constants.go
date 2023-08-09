@@ -4,7 +4,7 @@ import (
 	"github.com/CosmWasm/wasmd/x/wasm"
 
 	"github.com/merlins-labs/merlins/v17/app/upgrades"
-	superfluidtypes "github.com/merlins-labs/merlins/v17/x/superfluid/types"
+	superfluidtypes "github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
 
 	store "github.com/cosmos/cosmos-sdk/store/types"
 )

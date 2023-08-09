@@ -9,7 +9,7 @@ import (
 
 	"github.com/merlins-labs/merlins/v17/app"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/merlins-labs/merlins/v17/x/lockup/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/lockup/keeper"
 )
 
 type KeeperTestSuite struct {

@@ -9,13 +9,13 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/merlins-labs/merlins/v17/x/incentives/types"
-	incentivestypes "github.com/merlins-labs/merlins/v17/x/incentives/types"
+	"github.com/osmosis-labs/osmosis/v17/x/incentives/types"
+	incentivestypes "github.com/osmosis-labs/osmosis/v17/x/incentives/types"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
 
 	appParams "github.com/merlins-labs/merlins/v17/app/params"
-	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
+	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
 )
 
 // TestMsgCreateGauge tests if valid/invalid create gauge messages are properly validated/invalidated

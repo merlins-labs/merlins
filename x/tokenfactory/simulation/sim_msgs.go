@@ -7,8 +7,8 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmoutils"
 	"github.com/merlins-labs/merlins/v17/simulation/simtypes"
-	"github.com/merlins-labs/merlins/v17/x/tokenfactory/keeper"
-	"github.com/merlins-labs/merlins/v17/x/tokenfactory/types"
+	"github.com/osmosis-labs/osmosis/v17/x/tokenfactory/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/tokenfactory/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

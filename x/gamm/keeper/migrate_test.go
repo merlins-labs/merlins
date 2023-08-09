@@ -10,9 +10,9 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmomath"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/merlins-labs/merlins/v17/x/gamm/types"
-	gammmigration "github.com/merlins-labs/merlins/v17/x/gamm/types/migration"
-	poolincentivestypes "github.com/merlins-labs/merlins/v17/x/pool-incentives/types"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	gammmigration "github.com/osmosis-labs/osmosis/v17/x/gamm/types/migration"
+	poolincentivestypes "github.com/osmosis-labs/osmosis/v17/x/pool-incentives/types"
 )
 
 const (

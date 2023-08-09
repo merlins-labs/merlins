@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	appParams "github.com/merlins-labs/merlins/v17/app/params"
-	clmodel "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/model"
-	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	clmodel "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
+	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
 )
 
 func TestMsgCreateConcentratedPool(t *testing.T) {

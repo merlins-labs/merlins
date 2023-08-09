@@ -9,7 +9,7 @@ import (
 
 	"github.com/merlins-labs/merlins/v17/app"
 	v8 "github.com/merlins-labs/merlins/v17/app/upgrades/v8"
-	superfluidtypes "github.com/merlins-labs/merlins/v17/x/superfluid/types"
+	superfluidtypes "github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
 )
 
 func noOpAnteDecorator() sdk.AnteHandler {

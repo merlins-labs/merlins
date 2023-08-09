@@ -9,7 +9,7 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmoutils"
 	appparams "github.com/merlins-labs/merlins/v17/app/params"
-	"github.com/merlins-labs/merlins/v17/x/poolmanager/types"
+	"github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
 )
 
 // 1 << 256 - 1 where 256 is the max bit length defined for sdk.Int

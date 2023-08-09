@@ -12,7 +12,7 @@ import (
 
 	"github.com/merlins-labs/merlins/v17/app/keepers"
 	"github.com/merlins-labs/merlins/v17/app/upgrades"
-	txfeestypes "github.com/merlins-labs/merlins/v17/x/txfees/types"
+	txfeestypes "github.com/osmosis-labs/osmosis/v17/x/txfees/types"
 )
 
 func CreateUpgradeHandler(

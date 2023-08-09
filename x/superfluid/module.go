@@ -27,11 +27,11 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
 	furysimtypes "github.com/merlins-labs/merlins/v17/simulation/simtypes"
-	"github.com/merlins-labs/merlins/v17/x/mint/client/rest"
-	"github.com/merlins-labs/merlins/v17/x/superfluid/client/cli"
-	"github.com/merlins-labs/merlins/v17/x/superfluid/keeper"
-	"github.com/merlins-labs/merlins/v17/x/superfluid/simulation"
-	"github.com/merlins-labs/merlins/v17/x/superfluid/types"
+	"github.com/osmosis-labs/osmosis/v17/x/mint/client/rest"
+	"github.com/osmosis-labs/osmosis/v17/x/superfluid/client/cli"
+	"github.com/osmosis-labs/osmosis/v17/x/superfluid/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/superfluid/simulation"
+	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
 )
 
 var (

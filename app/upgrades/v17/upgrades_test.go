@@ -18,9 +18,9 @@ import (
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
 	"github.com/merlins-labs/merlins/v17/app/keepers"
 	v17 "github.com/merlins-labs/merlins/v17/app/upgrades/v17"
-	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
-	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
-	"github.com/merlins-labs/merlins/v17/x/twap/types"
+	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	"github.com/osmosis-labs/osmosis/v17/x/twap/types"
 )
 
 type UpgradeTestSuite struct {

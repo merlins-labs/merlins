@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	appParams "github.com/merlins-labs/merlins/v17/app/params"
-	stableswap "github.com/merlins-labs/merlins/v17/x/gamm/pool-models/stableswap"
-	"github.com/merlins-labs/merlins/v17/x/gamm/types"
+	stableswap "github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/stableswap"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
 )
 
 func baseCreatePoolMsgGen(sender sdk.AccAddress) *stableswap.MsgCreateStableswapPool {

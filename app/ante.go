@@ -14,8 +14,8 @@ import (
 	furyante "github.com/merlins-labs/merlins/v17/ante"
 	v9 "github.com/merlins-labs/merlins/v17/app/upgrades/v9"
 
-	txfeeskeeper "github.com/merlins-labs/merlins/v17/x/txfees/keeper"
-	txfeestypes "github.com/merlins-labs/merlins/v17/x/txfees/types"
+	txfeeskeeper "github.com/osmosis-labs/osmosis/v17/x/txfees/keeper"
+	txfeestypes "github.com/osmosis-labs/osmosis/v17/x/txfees/types"
 )
 
 // Link to default ante handler used by cosmos sdk:

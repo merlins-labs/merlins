@@ -9,8 +9,8 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	furyapp "github.com/merlins-labs/merlins/v17/app"
-	"github.com/merlins-labs/merlins/v17/x/lockup"
-	"github.com/merlins-labs/merlins/v17/x/lockup/types"
+	"github.com/osmosis-labs/osmosis/v17/x/lockup"
+	"github.com/osmosis-labs/osmosis/v17/x/lockup/types"
 
 	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"

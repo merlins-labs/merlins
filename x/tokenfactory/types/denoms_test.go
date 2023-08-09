@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	appparams "github.com/merlins-labs/merlins/v17/app/params"
-	"github.com/merlins-labs/merlins/v17/x/tokenfactory/types"
+	"github.com/osmosis-labs/osmosis/v17/x/tokenfactory/types"
 )
 
 func TestDeconstructDenom(t *testing.T) {

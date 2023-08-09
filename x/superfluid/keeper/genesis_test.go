@@ -9,8 +9,8 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	simapp "github.com/merlins-labs/merlins/v17/app"
-	"github.com/merlins-labs/merlins/v17/x/superfluid"
-	"github.com/merlins-labs/merlins/v17/x/superfluid/types"
+	"github.com/osmosis-labs/osmosis/v17/x/superfluid"
+	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

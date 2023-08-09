@@ -26,13 +26,13 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 
 	"github.com/merlins-labs/merlins/v17/simulation/simtypes"
-	"github.com/merlins-labs/merlins/v17/x/gamm/client/cli"
-	"github.com/merlins-labs/merlins/v17/x/gamm/keeper"
-	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
-	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/stableswap"
-	simulation "github.com/merlins-labs/merlins/v17/x/gamm/simulation"
-	"github.com/merlins-labs/merlins/v17/x/gamm/types"
-	"github.com/merlins-labs/merlins/v17/x/gamm/v2types"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/client/cli"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/stableswap"
+	simulation "github.com/osmosis-labs/osmosis/v17/x/gamm/simulation"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/v2types"
 )
 
 var (

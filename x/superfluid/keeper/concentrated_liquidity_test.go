@@ -9,9 +9,9 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmomath"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
-	"github.com/merlins-labs/merlins/v17/x/superfluid/keeper"
-	"github.com/merlins-labs/merlins/v17/x/superfluid/types"
+	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/osmosis-labs/osmosis/v17/x/superfluid/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
 )
 
 func (s *KeeperTestSuite) TestAddToConcentratedLiquiditySuperfluidPosition() {

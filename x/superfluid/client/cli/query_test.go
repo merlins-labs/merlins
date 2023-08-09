@@ -12,7 +12,7 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/merlins-labs/merlins/v17/x/superfluid/types"
+	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
 )
 
 type QueryTestSuite struct {

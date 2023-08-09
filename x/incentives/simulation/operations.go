@@ -8,9 +8,9 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 
-	"github.com/merlins-labs/merlins/v17/x/incentives/keeper"
-	"github.com/merlins-labs/merlins/v17/x/incentives/types"
-	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
+	"github.com/osmosis-labs/osmosis/v17/x/incentives/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/incentives/types"
+	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"

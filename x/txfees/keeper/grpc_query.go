@@ -9,7 +9,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/merlins-labs/merlins/v17/x/txfees/types"
+	"github.com/osmosis-labs/osmosis/v17/x/txfees/types"
 )
 
 var _ types.QueryServer = Querier{}

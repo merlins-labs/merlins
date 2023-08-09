@@ -16,9 +16,9 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/merlins-labs/merlins/v17/x/mint/keeper"
-	"github.com/merlins-labs/merlins/v17/x/mint/types"
-	poolincentivestypes "github.com/merlins-labs/merlins/v17/x/pool-incentives/types"
+	"github.com/osmosis-labs/osmosis/v17/x/mint/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/mint/types"
+	poolincentivestypes "github.com/osmosis-labs/osmosis/v17/x/pool-incentives/types"
 )
 
 type KeeperTestSuite struct {

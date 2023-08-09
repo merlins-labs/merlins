@@ -8,7 +8,7 @@ import (
 	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/cosmwasm/msg"
 	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/model"
 	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
-	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
+	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
 
 	"github.com/osmosis-labs/osmosis/osmoutils/cosmwasm"
 )

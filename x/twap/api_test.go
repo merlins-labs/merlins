@@ -10,9 +10,9 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmomath"
 	sdkrand "github.com/merlins-labs/merlins/v17/simulation/simtypes/random"
-	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
-	"github.com/merlins-labs/merlins/v17/x/twap"
-	"github.com/merlins-labs/merlins/v17/x/twap/types"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
+	"github.com/osmosis-labs/osmosis/v17/x/twap"
+	"github.com/osmosis-labs/osmosis/v17/x/twap/types"
 )
 
 var (

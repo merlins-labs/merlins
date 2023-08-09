@@ -15,11 +15,11 @@ import (
 	"github.com/osmosis-labs/osmosis/osmoutils/accum"
 	"github.com/merlins-labs/merlins/v17/app"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	cl "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity"
-	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/math"
-	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/model"
-	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
-	clgenesis "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types/genesis"
+	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
+	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/math"
+	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
+	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	clgenesis "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types/genesis"
 )
 
 type BigBangPositions struct {

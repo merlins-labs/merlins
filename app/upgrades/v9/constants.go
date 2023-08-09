@@ -7,7 +7,7 @@ import (
 
 	icahosttypes "github.com/cosmos/ibc-go/v4/modules/apps/27-interchain-accounts/host/types"
 
-	tokenfactorytypes "github.com/merlins-labs/merlins/v17/x/tokenfactory/types"
+	tokenfactorytypes "github.com/osmosis-labs/osmosis/v17/x/tokenfactory/types"
 )
 
 // UpgradeName defines the on-chain upgrade name for the Merlins v9 upgrade.

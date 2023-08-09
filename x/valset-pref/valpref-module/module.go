@@ -18,12 +18,12 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 
 	"github.com/merlins-labs/merlins/v17/simulation/simtypes"
-	keeper "github.com/merlins-labs/merlins/v17/x/valset-pref"
-	validatorprefclient "github.com/merlins-labs/merlins/v17/x/valset-pref/client"
-	valsetprefcli "github.com/merlins-labs/merlins/v17/x/valset-pref/client/cli"
-	"github.com/merlins-labs/merlins/v17/x/valset-pref/client/grpc"
-	"github.com/merlins-labs/merlins/v17/x/valset-pref/client/queryproto"
-	"github.com/merlins-labs/merlins/v17/x/valset-pref/types"
+	keeper "github.com/osmosis-labs/osmosis/v17/x/valset-pref"
+	validatorprefclient "github.com/osmosis-labs/osmosis/v17/x/valset-pref/client"
+	valsetprefcli "github.com/osmosis-labs/osmosis/v17/x/valset-pref/client/cli"
+	"github.com/osmosis-labs/osmosis/v17/x/valset-pref/client/grpc"
+	"github.com/osmosis-labs/osmosis/v17/x/valset-pref/client/queryproto"
+	"github.com/osmosis-labs/osmosis/v17/x/valset-pref/types"
 )
 
 var (

@@ -2,7 +2,7 @@ package gammsimulation
 
 import (
 	"github.com/merlins-labs/merlins/v17/simulation/simtypes"
-	"github.com/merlins-labs/merlins/v17/x/gamm/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/keeper"
 )
 
 func DefaultActions(keeper keeper.Keeper) []simtypes.Action {

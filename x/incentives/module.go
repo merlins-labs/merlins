@@ -28,11 +28,11 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
 	furysimtypes "github.com/merlins-labs/merlins/v17/simulation/simtypes"
-	"github.com/merlins-labs/merlins/v17/x/incentives/client/cli"
-	"github.com/merlins-labs/merlins/v17/x/incentives/keeper"
-	"github.com/merlins-labs/merlins/v17/x/incentives/simulation"
-	"github.com/merlins-labs/merlins/v17/x/incentives/types"
-	"github.com/merlins-labs/merlins/v17/x/mint/client/rest"
+	"github.com/osmosis-labs/osmosis/v17/x/incentives/client/cli"
+	"github.com/osmosis-labs/osmosis/v17/x/incentives/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/incentives/simulation"
+	"github.com/osmosis-labs/osmosis/v17/x/incentives/types"
+	"github.com/osmosis-labs/osmosis/v17/x/mint/client/rest"
 )
 
 var (

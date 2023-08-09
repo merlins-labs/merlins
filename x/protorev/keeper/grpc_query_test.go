@@ -4,9 +4,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
+	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
 
-	"github.com/merlins-labs/merlins/v17/x/protorev/types"
+	"github.com/osmosis-labs/osmosis/v17/x/protorev/types"
 )
 
 // TestParams tests the query for params

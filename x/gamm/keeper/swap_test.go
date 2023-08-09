@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/merlins-labs/merlins/v17/tests/mocks"
-	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
-	"github.com/merlins-labs/merlins/v17/x/gamm/types"
-	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
 )
 
 var _ = suite.TestingSuite(nil)

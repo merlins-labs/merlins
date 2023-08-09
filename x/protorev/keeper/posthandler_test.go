@@ -13,9 +13,9 @@ import (
 	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
-	"github.com/merlins-labs/merlins/v17/x/protorev/keeper"
-	"github.com/merlins-labs/merlins/v17/x/protorev/types"
+	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	"github.com/osmosis-labs/osmosis/v17/x/protorev/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/protorev/types"
 )
 
 // BenchmarkBalancerSwapHighestLiquidityArb benchmarks a balancer swap that creates a single three hop arbitrage

@@ -9,7 +9,7 @@ import "google/protobuf/duration.proto";
 import "merlins/lockup/lock.proto";
 import "merlins/lockup/params.proto";
 
-option go_package = "github.com/merlins-labs/merlins/v17/x/lockup/types";
+option go_package = "github.com/osmosis-labs/osmosis/v17/x/lockup/types";
 
 // Query defines the gRPC querier service.
 service Query {

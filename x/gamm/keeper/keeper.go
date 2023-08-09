@@ -3,7 +3,7 @@ package keeper
 import (
 	"fmt"
 
-	"github.com/merlins-labs/merlins/v17/x/gamm/types"
+	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"

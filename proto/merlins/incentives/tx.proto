@@ -8,7 +8,7 @@ import "cosmos/base/v1beta1/coin.proto";
 import "merlins/incentives/gauge.proto";
 import "merlins/lockup/lock.proto";
 
-option go_package = "github.com/merlins-labs/merlins/v17/x/incentives/types";
+option go_package = "github.com/osmosis-labs/osmosis/v17/x/incentives/types";
 
 service Msg {
   rpc CreateGauge(MsgCreateGauge) returns (MsgCreateGaugeResponse);

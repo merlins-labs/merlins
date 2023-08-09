@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/merlins-labs/merlins/v17/x/pool-incentives/types"
+	"github.com/osmosis-labs/osmosis/v17/x/pool-incentives/types"
 )
 
 type QueryTestSuite struct {

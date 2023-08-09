@@ -14,8 +14,8 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmoutils"
 	appparams "github.com/merlins-labs/merlins/v17/app/params"
-	gammtypes "github.com/merlins-labs/merlins/v17/x/gamm/types"
-	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
+	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/server"

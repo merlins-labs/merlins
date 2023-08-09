@@ -11,8 +11,8 @@ import (
 
 	"github.com/merlins-labs/merlins/v17/wasmbinding/bindings"
 
-	tokenfactorykeeper "github.com/merlins-labs/merlins/v17/x/tokenfactory/keeper"
-	tokenfactorytypes "github.com/merlins-labs/merlins/v17/x/tokenfactory/types"
+	tokenfactorykeeper "github.com/osmosis-labs/osmosis/v17/x/tokenfactory/keeper"
+	tokenfactorytypes "github.com/osmosis-labs/osmosis/v17/x/tokenfactory/types"
 )
 
 // CustomMessageDecorator returns decorator for custom CosmWasm bindings messages

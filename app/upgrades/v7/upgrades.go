@@ -9,8 +9,8 @@ import (
 
 	"github.com/merlins-labs/merlins/v17/app/keepers"
 	"github.com/merlins-labs/merlins/v17/app/upgrades"
-	lockupkeeper "github.com/merlins-labs/merlins/v17/x/lockup/keeper"
-	superfluidtypes "github.com/merlins-labs/merlins/v17/x/superfluid/types"
+	lockupkeeper "github.com/osmosis-labs/osmosis/v17/x/lockup/keeper"
+	superfluidtypes "github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
 )
 
 func CreateUpgradeHandler(

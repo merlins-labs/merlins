@@ -14,11 +14,11 @@ import (
 	cosmwasmtypes "github.com/CosmWasm/wasmd/x/wasm/types"
 	distrtypes "github.com/cosmos/cosmos-sdk/x/distribution/types"
 
-	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
 	cosmwasmpooltypes "github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
-	superfluidtypes "github.com/merlins-labs/merlins/v17/x/superfluid/types"
-	tokenfactorykeeper "github.com/merlins-labs/merlins/v17/x/tokenfactory/keeper"
-	tokenfactorytypes "github.com/merlins-labs/merlins/v17/x/tokenfactory/types"
+	superfluidtypes "github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
+	tokenfactorykeeper "github.com/osmosis-labs/osmosis/v17/x/tokenfactory/keeper"
+	tokenfactorytypes "github.com/osmosis-labs/osmosis/v17/x/tokenfactory/types"
 )
 
 const (

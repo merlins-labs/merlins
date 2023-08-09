@@ -9,11 +9,11 @@ import (
 
 	osmoutils "github.com/osmosis-labs/osmosis/osmoutils"
 	appParams "github.com/merlins-labs/merlins/v17/app/params"
-	"github.com/merlins-labs/merlins/v17/x/incentives/types"
-	incentivetypes "github.com/merlins-labs/merlins/v17/x/incentives/types"
-	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
-	poolincentivetypes "github.com/merlins-labs/merlins/v17/x/pool-incentives/types"
-	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
+	"github.com/osmosis-labs/osmosis/v17/x/incentives/types"
+	incentivetypes "github.com/osmosis-labs/osmosis/v17/x/incentives/types"
+	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
+	poolincentivetypes "github.com/osmosis-labs/osmosis/v17/x/pool-incentives/types"
+	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
 )
 
 var _ = suite.TestingSuite(nil)

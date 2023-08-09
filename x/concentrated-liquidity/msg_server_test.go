@@ -6,10 +6,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	cl "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity"
-	clmodel "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/model"
-	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
-	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
+	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
+	clmodel "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
+	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
 )
 
 // TestCreateConcentratedPool_Events tests that events are correctly emitted

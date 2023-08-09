@@ -8,8 +8,8 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmoutils"
 	"github.com/merlins-labs/merlins/v17/simulation/simtypes"
-	"github.com/merlins-labs/merlins/v17/x/lockup/keeper"
-	"github.com/merlins-labs/merlins/v17/x/lockup/types"
+	"github.com/osmosis-labs/osmosis/v17/x/lockup/keeper"
+	"github.com/osmosis-labs/osmosis/v17/x/lockup/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
