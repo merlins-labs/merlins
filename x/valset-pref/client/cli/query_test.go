@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	valPref "github.com/osmosis-labs/osmosis/v17/x/valset-pref"
-	"github.com/osmosis-labs/osmosis/v17/x/valset-pref/client/queryproto"
-	"github.com/osmosis-labs/osmosis/v17/x/valset-pref/types"
+	valPref "github.com/merlins-labs/merlins/v17/x/valset-pref"
+	"github.com/merlins-labs/merlins/v17/x/valset-pref/client/queryproto"
+	"github.com/merlins-labs/merlins/v17/x/valset-pref/types"
 )
 
 type QueryTestSuite struct {

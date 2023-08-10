@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/osmosis-labs/osmosis/v17/x/incentives/keeper"
-	"github.com/osmosis-labs/osmosis/v17/x/incentives/types"
+	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	"github.com/merlins-labs/merlins/v17/x/incentives/keeper"
+	"github.com/merlins-labs/merlins/v17/x/incentives/types"
 )
 
 type KeeperTestSuite struct {

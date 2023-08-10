@@ -10,8 +10,8 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/twap"
-	"github.com/osmosis-labs/osmosis/v17/x/twap/types"
+	"github.com/merlins-labs/merlins/v17/x/twap"
+	"github.com/merlins-labs/merlins/v17/x/twap/types"
 )
 
 // TODO: Consider switching this everywhere

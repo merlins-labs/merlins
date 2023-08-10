@@ -17,10 +17,10 @@ import (
 	"github.com/osmosis-labs/osmosis/osmoutils"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
 	v16 "github.com/merlins-labs/merlins/v17/app/upgrades/v16"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	cosmwasmpooltypes "github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
-	protorevtypes "github.com/osmosis-labs/osmosis/v17/x/protorev/types"
+	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	cosmwasmpooltypes "github.com/merlins-labs/merlins/v17/x/cosmwasmpool/types"
+	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
+	protorevtypes "github.com/merlins-labs/merlins/v17/x/protorev/types"
 )
 
 var (

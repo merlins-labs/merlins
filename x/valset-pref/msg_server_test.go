@@ -4,8 +4,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	appParams "github.com/merlins-labs/merlins/v17/app/params"
-	valPref "github.com/osmosis-labs/osmosis/v17/x/valset-pref"
-	"github.com/osmosis-labs/osmosis/v17/x/valset-pref/types"
+	valPref "github.com/merlins-labs/merlins/v17/x/valset-pref"
+	"github.com/merlins-labs/merlins/v17/x/valset-pref/types"
 )
 
 func (s *KeeperTestSuite) TestSetValidatorSetPreference() {

@@ -11,8 +11,8 @@ import (
 
 	furyapp "github.com/merlins-labs/merlins/v17/app"
 
-	"github.com/osmosis-labs/osmosis/v17/x/incentives/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
+	"github.com/merlins-labs/merlins/v17/x/incentives/types"
+	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
 )
 
 // TestIncentivesExportGenesis tests export genesis command for the incentives module.

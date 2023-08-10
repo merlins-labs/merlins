@@ -14,8 +14,8 @@ import (
 	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
 	v10 "github.com/merlins-labs/merlins/v17/app/upgrades/v10"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
+	"github.com/merlins-labs/merlins/v17/x/gamm/types"
 )
 
 const (

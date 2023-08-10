@@ -11,12 +11,12 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	minttypes "github.com/osmosis-labs/osmosis/v17/x/mint/types"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/keeper"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
+	gammtypes "github.com/merlins-labs/merlins/v17/x/gamm/types"
+	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
+	minttypes "github.com/merlins-labs/merlins/v17/x/mint/types"
+	"github.com/merlins-labs/merlins/v17/x/superfluid/keeper"
+	"github.com/merlins-labs/merlins/v17/x/superfluid/types"
 	epochtypes "github.com/osmosis-labs/osmosis/x/epochs/types"
 )
 

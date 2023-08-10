@@ -6,7 +6,7 @@ import (
 	ibchookstypes "github.com/osmosis-labs/osmosis/x/ibc-hooks/types"
 
 	"github.com/merlins-labs/merlins/v17/app/upgrades"
-	downtimetypes "github.com/osmosis-labs/osmosis/v17/x/downtime-detector/types"
+	downtimetypes "github.com/merlins-labs/merlins/v17/x/downtime-detector/types"
 )
 
 // UpgradeName defines the on-chain upgrade name for the Merlins v14 upgrade.

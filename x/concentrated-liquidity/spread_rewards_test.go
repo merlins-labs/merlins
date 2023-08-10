@@ -9,10 +9,10 @@ import (
 	"github.com/osmosis-labs/osmosis/osmomath"
 	"github.com/osmosis-labs/osmosis/osmoutils/accum"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
-	clmath "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/math"
-	clmodel "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	cl "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity"
+	clmath "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/math"
+	clmodel "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/model"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
 )
 
 const (

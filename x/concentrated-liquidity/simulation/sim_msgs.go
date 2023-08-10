@@ -11,10 +11,10 @@ import (
 	appParams "github.com/merlins-labs/merlins/v17/app/params"
 	furysimtypes "github.com/merlins-labs/merlins/v17/simulation/simtypes"
 	sdkrand "github.com/merlins-labs/merlins/v17/simulation/simtypes/random"
-	clkeeper "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
-	clmodeltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	minttypes "github.com/osmosis-labs/osmosis/v17/x/mint/types"
+	clkeeper "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity"
+	clmodeltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/model"
+	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	minttypes "github.com/merlins-labs/merlins/v17/x/mint/types"
 )
 
 var PoolCreationFee = sdk.NewInt64Coin("stake", 10_000_000)

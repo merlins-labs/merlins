@@ -5,11 +5,11 @@ import (
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	minttypes "github.com/osmosis-labs/osmosis/v17/x/mint/types"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/keeper/gov"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
+	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
+	minttypes "github.com/merlins-labs/merlins/v17/x/mint/types"
+	"github.com/merlins-labs/merlins/v17/x/superfluid/keeper/gov"
+	"github.com/merlins-labs/merlins/v17/x/superfluid/types"
 )
 
 func (s *KeeperTestSuite) createGammPool(denoms []string) uint64 {

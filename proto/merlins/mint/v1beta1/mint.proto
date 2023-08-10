@@ -1,7 +1,7 @@
 syntax = "proto3";
 package merlins.mint.v1beta1;
 
-option go_package = "github.com/osmosis-labs/osmosis/v17/x/mint/types";
+option go_package = "github.com/merlins-labs/merlins/v17/x/mint/types";
 
 import "gogoproto/gogo.proto";
 import "google/protobuf/timestamp.proto";

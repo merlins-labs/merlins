@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
-	clmath "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/math"
-	clmodel "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	gammmigration "github.com/osmosis-labs/osmosis/v17/x/gamm/types/migration"
+	cl "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity"
+	clmath "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/math"
+	clmodel "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/model"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
+	gammmigration "github.com/merlins-labs/merlins/v17/x/gamm/types/migration"
 )
 
 type BenchTestSuite struct {

@@ -5,10 +5,10 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/keeper"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
+	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
+	"github.com/merlins-labs/merlins/v17/x/superfluid/keeper"
+	"github.com/merlins-labs/merlins/v17/x/superfluid/types"
 
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"

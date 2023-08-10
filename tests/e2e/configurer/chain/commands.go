@@ -20,8 +20,8 @@ import (
 	"github.com/merlins-labs/merlins/v17/tests/e2e/initialization"
 	"github.com/merlins-labs/merlins/v17/tests/e2e/util"
 
-	ibcratelimittypes "github.com/osmosis-labs/osmosis/v17/x/ibc-rate-limit/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
+	ibcratelimittypes "github.com/merlins-labs/merlins/v17/x/ibc-rate-limit/types"
+	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 

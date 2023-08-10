@@ -9,9 +9,9 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmomath"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/swapstrategy"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	cl "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/swapstrategy"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
 )
 
 type StrategyTestSuite struct {

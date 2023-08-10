@@ -10,12 +10,12 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/protorev"
-	protorevkeeper "github.com/osmosis-labs/osmosis/v17/x/protorev/keeper"
-	"github.com/osmosis-labs/osmosis/v17/x/protorev/types"
+	"github.com/merlins-labs/merlins/v17/x/protorev"
+	protorevkeeper "github.com/merlins-labs/merlins/v17/x/protorev/keeper"
+	"github.com/merlins-labs/merlins/v17/x/protorev/types"
 
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/stableswap"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/stableswap"
 
 	merlinsapp "github.com/merlins-labs/merlins/v17/app"
 )

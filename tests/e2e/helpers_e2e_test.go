@@ -11,9 +11,9 @@ import (
 	"github.com/merlins-labs/merlins/v17/tests/e2e/configurer/chain"
 	"github.com/merlins-labs/merlins/v17/tests/e2e/initialization"
 	"github.com/merlins-labs/merlins/v17/tests/e2e/util"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/model"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	gammtypes "github.com/merlins-labs/merlins/v17/x/gamm/types"
 )
 
 var defaultFeePerTx = sdk.NewInt(1000)

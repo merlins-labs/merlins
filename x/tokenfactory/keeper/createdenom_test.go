@@ -7,7 +7,7 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/tokenfactory/types"
+	"github.com/merlins-labs/merlins/v17/x/tokenfactory/types"
 )
 
 func (s *KeeperTestSuite) TestMsgCreateDenom() {

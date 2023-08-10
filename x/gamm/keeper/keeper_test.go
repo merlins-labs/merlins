@@ -8,9 +8,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/stableswap"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/stableswap"
+	"github.com/merlins-labs/merlins/v17/x/gamm/types"
 )
 
 type KeeperTestSuite struct {

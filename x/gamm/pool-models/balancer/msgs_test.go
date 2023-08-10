@@ -10,8 +10,8 @@ import (
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
 	appParams "github.com/merlins-labs/merlins/v17/app/params"
-	balancer "github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	balancer "github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
+	"github.com/merlins-labs/merlins/v17/x/gamm/types"
 )
 
 func TestMsgCreateBalancerPool_ValidateBasic(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 	merlinsapp "github.com/merlins-labs/merlins/v17/app"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/txfees/types"
+	"github.com/merlins-labs/merlins/v17/x/txfees/types"
 )
 
 type KeeperTestSuite struct {

@@ -14,13 +14,13 @@ import (
 	"github.com/osmosis-labs/osmosis/osmomath"
 	"github.com/osmosis-labs/osmosis/osmoutils"
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	gammtypes "github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	gammmigration "github.com/osmosis-labs/osmosis/v17/x/gamm/types/migration"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/keeper"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
+	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
+	gammtypes "github.com/merlins-labs/merlins/v17/x/gamm/types"
+	gammmigration "github.com/merlins-labs/merlins/v17/x/gamm/types/migration"
+	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
+	"github.com/merlins-labs/merlins/v17/x/superfluid/keeper"
+	"github.com/merlins-labs/merlins/v17/x/superfluid/types"
 )
 
 var (

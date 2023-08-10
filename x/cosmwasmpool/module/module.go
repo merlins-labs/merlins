@@ -16,13 +16,13 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 
 	"github.com/merlins-labs/merlins/v17/simulation/simtypes"
-	cosmwasmpool "github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool"
-	moduleclient "github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/client"
-	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/client/cli"
-	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/client/grpc"
-	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/client/queryproto"
-	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/model"
-	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
+	cosmwasmpool "github.com/merlins-labs/merlins/v17/x/cosmwasmpool"
+	moduleclient "github.com/merlins-labs/merlins/v17/x/cosmwasmpool/client"
+	"github.com/merlins-labs/merlins/v17/x/cosmwasmpool/client/cli"
+	"github.com/merlins-labs/merlins/v17/x/cosmwasmpool/client/grpc"
+	"github.com/merlins-labs/merlins/v17/x/cosmwasmpool/client/queryproto"
+	"github.com/merlins-labs/merlins/v17/x/cosmwasmpool/model"
+	"github.com/merlins-labs/merlins/v17/x/cosmwasmpool/types"
 )
 
 var (

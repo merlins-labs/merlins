@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/keeper/internal/events"
-	"github.com/osmosis-labs/osmosis/v17/x/superfluid/types"
+	"github.com/merlins-labs/merlins/v17/x/superfluid/keeper/internal/events"
+	"github.com/merlins-labs/merlins/v17/x/superfluid/types"
 )
 
 type SuperfluidEventsTestSuite struct {

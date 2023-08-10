@@ -11,10 +11,10 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmomath"
 	"github.com/osmosis-labs/osmosis/osmoutils/osmoassert"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/internal/test_helpers"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/internal/test_helpers"
+	"github.com/merlins-labs/merlins/v17/x/gamm/types"
+	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
 )
 
 var (

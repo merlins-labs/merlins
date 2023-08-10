@@ -7,8 +7,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	gammkeeper "github.com/osmosis-labs/osmosis/v17/x/gamm/keeper"
-	"github.com/osmosis-labs/osmosis/v17/x/txfees/types"
+	gammkeeper "github.com/merlins-labs/merlins/v17/x/gamm/keeper"
+	"github.com/merlins-labs/merlins/v17/x/txfees/types"
 )
 
 // Every asset with a liquid fury pairing pool on Merlins, as of 12/01/21

@@ -10,8 +10,8 @@ import (
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
 	appParams "github.com/merlins-labs/merlins/v17/app/params"
 
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/model"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
 )
 
 type extMsg interface {

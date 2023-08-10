@@ -7,9 +7,9 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmomath"
 	"github.com/osmosis-labs/osmosis/osmoutils"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/swapstrategy"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/math"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/swapstrategy"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
 )
 
 const (

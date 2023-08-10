@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/merlins-labs/merlins/v17/app"
-	poolmanagercli "github.com/osmosis-labs/osmosis/v17/x/poolmanager/client/cli"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	poolmanagercli "github.com/merlins-labs/merlins/v17/x/poolmanager/client/cli"
+	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"

@@ -2,7 +2,7 @@ package v12
 
 import (
 	"github.com/merlins-labs/merlins/v17/app/upgrades"
-	twaptypes "github.com/osmosis-labs/osmosis/v17/x/twap/types"
+	twaptypes "github.com/merlins-labs/merlins/v17/x/twap/types"
 
 	store "github.com/cosmos/cosmos-sdk/store/types"
 )

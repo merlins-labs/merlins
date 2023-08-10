@@ -11,7 +11,7 @@ import (
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
 	"github.com/merlins-labs/merlins/v17/app"
-	"github.com/osmosis-labs/osmosis/v17/x/mint/client/cli"
+	"github.com/merlins-labs/merlins/v17/x/mint/client/cli"
 
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"

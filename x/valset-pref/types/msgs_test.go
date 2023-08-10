@@ -8,7 +8,7 @@ import (
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
 	appParams "github.com/merlins-labs/merlins/v17/app/params"
-	"github.com/osmosis-labs/osmosis/v17/x/valset-pref/types"
+	"github.com/merlins-labs/merlins/v17/x/valset-pref/types"
 )
 
 func TestMsgSetValidatorSetPreference(t *testing.T) {

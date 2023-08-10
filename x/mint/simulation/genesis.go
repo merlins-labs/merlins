@@ -5,7 +5,7 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/osmosis-labs/osmosis/v17/x/mint/types"
+	"github.com/merlins-labs/merlins/v17/x/mint/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"

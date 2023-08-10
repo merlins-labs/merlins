@@ -13,14 +13,14 @@ import (
 	"github.com/osmosis-labs/osmosis/osmomath"
 	"github.com/osmosis-labs/osmosis/osmoutils"
 	"github.com/osmosis-labs/osmosis/osmoutils/accum"
-	concentrated_liquidity "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/clmocks"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/math"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/model"
-	"github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	concentrated_liquidity "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/clmocks"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/math"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/model"
+	"github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
 
-	cl "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity"
+	cl "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
 )

@@ -7,8 +7,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
-	poolmanagertypes "github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	"github.com/merlins-labs/merlins/v17/x/cosmwasmpool/types"
+	poolmanagertypes "github.com/merlins-labs/merlins/v17/x/poolmanager/types"
 )
 
 // constants.

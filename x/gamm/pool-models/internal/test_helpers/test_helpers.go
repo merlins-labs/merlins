@@ -14,7 +14,7 @@ import (
 
 	"github.com/osmosis-labs/osmosis/osmomath"
 	sdkrand "github.com/merlins-labs/merlins/v17/simulation/simtypes/random"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/types"
+	"github.com/merlins-labs/merlins/v17/x/gamm/types"
 )
 
 // CfmmCommonTestSuite is the common test suite struct of Constant Function Market Maker,

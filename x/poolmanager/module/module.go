@@ -16,13 +16,13 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 
 	"github.com/merlins-labs/merlins/v17/simulation/simtypes"
-	gammsimulation "github.com/osmosis-labs/osmosis/v17/x/gamm/simulation"
-	"github.com/osmosis-labs/osmosis/v17/x/poolmanager"
-	pmclient "github.com/osmosis-labs/osmosis/v17/x/poolmanager/client"
-	"github.com/osmosis-labs/osmosis/v17/x/poolmanager/client/cli"
-	"github.com/osmosis-labs/osmosis/v17/x/poolmanager/client/grpc"
-	"github.com/osmosis-labs/osmosis/v17/x/poolmanager/client/queryproto"
-	"github.com/osmosis-labs/osmosis/v17/x/poolmanager/types"
+	gammsimulation "github.com/merlins-labs/merlins/v17/x/gamm/simulation"
+	"github.com/merlins-labs/merlins/v17/x/poolmanager"
+	pmclient "github.com/merlins-labs/merlins/v17/x/poolmanager/client"
+	"github.com/merlins-labs/merlins/v17/x/poolmanager/client/cli"
+	"github.com/merlins-labs/merlins/v17/x/poolmanager/client/grpc"
+	"github.com/merlins-labs/merlins/v17/x/poolmanager/client/queryproto"
+	"github.com/merlins-labs/merlins/v17/x/poolmanager/types"
 )
 
 var (

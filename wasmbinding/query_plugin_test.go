@@ -20,11 +20,11 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/balancer"
-	gammv2types "github.com/osmosis-labs/osmosis/v17/x/gamm/v2types"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/balancer"
+	gammv2types "github.com/merlins-labs/merlins/v17/x/gamm/v2types"
 
 	"github.com/merlins-labs/merlins/v17/app"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
+	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
 	epochtypes "github.com/osmosis-labs/osmosis/x/epochs/types"
 
 	"github.com/merlins-labs/merlins/v17/wasmbinding"

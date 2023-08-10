@@ -15,8 +15,8 @@ import (
 
 	"github.com/merlins-labs/merlins/v17/app/keepers"
 	"github.com/merlins-labs/merlins/v17/app/upgrades"
-	ibcratelimittypes "github.com/osmosis-labs/osmosis/v17/x/ibc-rate-limit/types"
-	lockuptypes "github.com/osmosis-labs/osmosis/v17/x/lockup/types"
+	ibcratelimittypes "github.com/merlins-labs/merlins/v17/x/ibc-rate-limit/types"
+	lockuptypes "github.com/merlins-labs/merlins/v17/x/lockup/types"
 )
 
 //go:embed rate_limiter.wasm

@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/suite"
 
 	"github.com/merlins-labs/merlins/v17/app/apptesting"
-	"github.com/osmosis-labs/osmosis/v17/x/gamm/pool-models/stableswap"
+	"github.com/merlins-labs/merlins/v17/x/gamm/pool-models/stableswap"
 )
 
 type TestSuite struct {

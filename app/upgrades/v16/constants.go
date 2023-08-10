@@ -5,8 +5,8 @@ import (
 
 	store "github.com/cosmos/cosmos-sdk/store/types"
 
-	cltypes "github.com/osmosis-labs/osmosis/v17/x/concentrated-liquidity/types"
-	cosmwasmpooltypes "github.com/osmosis-labs/osmosis/v17/x/cosmwasmpool/types"
+	cltypes "github.com/merlins-labs/merlins/v17/x/concentrated-liquidity/types"
+	cosmwasmpooltypes "github.com/merlins-labs/merlins/v17/x/cosmwasmpool/types"
 )
 
 // UpgradeName defines the on-chain upgrade name for the Merlins v16 upgrade.
