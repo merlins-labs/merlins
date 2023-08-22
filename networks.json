@@ -1,0 +1,640 @@
+[
+  {
+    "id": "merlins",
+    "kind": "Cosmos",
+    "chainId": "merlins-1",
+    "displayName": "Merlins",
+    "icon": "icons/networks/merlins.svg",
+    "features": [
+      "NFTMarketplace",
+      "Organizations",
+      "SocialFeed",
+      "UPP"
+    ],
+    "walletUrlForStaking": "https://app.merlins.world/staking",
+    "currencies": [
+      {
+        "denom": "ufury",
+        "displayName": "FURY",
+        "decimals": 6,
+        "coingeckoId": "merlins",
+        "icon": "icons/networks/merlins-circle.svg",
+        "kind": "native",
+        "color": "#16BBFF"
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E",
+        "sourceNetwork": "cosmos-hub",
+        "sourceDenom": "uatom",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-431",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-10"
+      }
+    ],
+    "txExplorer": "https://www.mintscan.io/merlins/txs/$hash",
+    "accountExplorer": "https://www.mintscan.io/merlins/account/$address",
+    "contractExplorer": "https://www.mintscan.io/merlins/account/$address",
+    "idPrefix": "fury",
+    "testnet": false,
+    "backendEndpoint": "https://dapp-backend.mainnet.merlins.world",
+    "addressPrefix": "fury",
+    "restEndpoint": "https://rest.fury.black",
+    "rpcEndpoint": "http://35.204.44.202:26657",
+    "stakeCurrency": "ufury",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0.025,
+      "high": 0.04
+    },
+    "cosmosFeatures": [
+      "stargate",
+      "ibc-transfer",
+      "cosmwasm",
+      "no-legacy-stdTx",
+      "ibc-go"
+    ],
+    "nameServiceContractAddress": "fury1wkwy0xh89ksdgj9hr347dyd2dw7zesmtrue6kfzyml4vdtz6e5wscs7038",
+    "nameServiceDefaultImage": "ipfs://bafkreieqcwmjcb64r42ygs6a4dswz63djzgayjn3rhzjber3e42cknawlm",
+    "nameServiceTLD": ".fury",
+    "vaultContractAddress": "fury14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9s3hewys",
+    "riotContractAddressGen0": "fury1mf6ptkssddfmxvhdx0ech0k03ktp6kf9yk59renau2gvht3nq2gqg87tkw",
+    "riotContractAddressGen1": "fury1gflccmghzfscmxl95z43v36y0rle8v9x8kvt9na03yzywtw86amsj9nf37",
+    "riotSquadStakingContractAddressV1": "fury1zwkmdfsc6h96jm4yqdykaw5y7ndwsvqvgh5ryxp9nxs3hccml0xqfyrm37",
+    "riotSquadStakingContractAddressV2": "fury1kvjk9m7dk0es35y6ah0k28llllvle3n7xgvh0gh568ta0paf8awsml2xev",
+    "distributorContractAddress": "fury1mnem0rhjaxcsghe0xw692xysra63xwwdee2wth9s0rkfwh4dxpaq76qqre",
+    "riotersFooterContractAddress": "fury1m6g3l3j5t988zwmp965hrhsxvm8jrkf2ulw4gmwj8hx8pd84tvcqeearsd",
+    "secondaryDuringMintList": [
+      "fury1wkwy0xh89ksdgj9hr347dyd2dw7zesmtrue6kfzyml4vdtz6e5wscs7038",
+      "fury1gflccmghzfscmxl95z43v36y0rle8v9x8kvt9na03yzywtw86amsj9nf37",
+      "fury1r8raaqul4j05qtn0t05603mgquxfl8e9p7kcf7smwzcv2hc5rrlq0vket0",
+      "fury167xst2jy9n6u92t3n8hf762adtpe3cs6acsgn0w5n2xlz9hv3xgs4ksc6t",
+      "fury1qdgvugdnscwnj8lc96q666000gyjv434kn9zl9ey3dph6p0cunusy6r42x",
+      "fury1r5f97ltu4d5jdn8jv5zjhc0vz2npjhnc9zcuz29z8ua739s376dql5agt4",
+      "fury16504tvqjzrln0gsewpcn20863h5ftr638fxlx37a6ntd7w5tudwqs8f3ts"
+    ],
+    "excludeFromLaunchpadList": [
+      "fury1gflccmghzfscmxl95z43v36y0rle8v9x8kvt9na03yzywtw86amsj9nf37"
+    ],
+    "socialFeedContractAddress": "fury1lxf8agg0wd2m7n2ultl0yx337jw23puh0mlkkw5vhtnkkfettwfqya7kpp",
+    "daoFactoryContractAddress": "fury16rxh5hgukhdq8rvm2j3t6v483dcqguwp4l825vlwz5pmfpw7s4rs45nnca",
+    "daoCoreCodeId": 27,
+    "daoPreProposeSingleCodeId": 28,
+    "daoProposalSingleCodeId": 31,
+    "daoCw4GroupCodeId": 32,
+    "daoVotingCw4CodeId": 33
+  },
+  {
+    "id": "cosmos-hub",
+    "kind": "Cosmos",
+    "chainId": "cosmoshub-4",
+    "displayName": "Cosmos Hub",
+    "icon": "icons/networks/cosmos-hub.svg",
+    "features": [],
+    "currencies": [
+      {
+        "denom": "uatom",
+        "displayName": "ATOM",
+        "decimals": 6,
+        "coingeckoId": "cosmos",
+        "icon": "icons/networks/cosmos-hub-circle.svg",
+        "kind": "native",
+        "color": "#5C26F5"
+      }
+    ],
+    "txExplorer": "https://www.mintscan.io/cosmos/txs/$hash",
+    "accountExplorer": "https://www.mintscan.io/cosmos/account/$address",
+    "contractExplorer": "https://www.mintscan.io/cosmos/account/$address",
+    "idPrefix": "cosm",
+    "testnet": false,
+    "backendEndpoint": "https://dapp-backend.mainnet.merlins.world",
+    "addressPrefix": "cosmos",
+    "restEndpoint": "https://api-cosmoshub-ia.cosmosia.notional.ventures",
+    "rpcEndpoint": "https://rpc-cosmoshub-ia.cosmosia.notional.ventures",
+    "stakeCurrency": "uatom",
+    "gasPriceStep": {
+      "low": 0.01,
+      "average": 0.025,
+      "high": 0.04
+    },
+    "cosmosFeatures": [
+      "stargate",
+      "ibc-transfer",
+      "cosmwasm",
+      "no-legacy-stdTx",
+      "ibc-go"
+    ]
+  },
+  {
+    "id": "merlins-testnet",
+    "kind": "Cosmos",
+    "chainId": "merlins-testnet-v3",
+    "displayName": "Merlins Testnet",
+    "icon": "icons/networks/merlins.svg",
+    "features": [
+      "NFTMarketplace",
+      "Organizations",
+      "SocialFeed",
+      "UPP"
+    ],
+    "currencies": [
+      {
+        "denom": "ufury",
+        "displayName": "FURY",
+        "decimals": 6,
+        "coingeckoId": "merlins",
+        "icon": "icons/networks/merlins-circle.svg",
+        "kind": "native",
+        "color": "#16BBFF"
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/C9300DDD93DF3A3A668CAB02398A0AA081EF89EC005B2DB68832E363BAAABF85",
+        "sourceNetwork": "cosmos-hub-theta",
+        "sourceDenom": "uatom",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-685",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-30",
+        "deprecated": true
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/8D9734B53D56DC57A92E4CC788547699853F411190F6DAA70FA12B9BD062F7AE",
+        "sourceNetwork": "cosmos-hub-theta",
+        "sourceDenom": "uatom",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-701",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-33"
+      }
+    ],
+    "txExplorer": "https://explorer.merlins.world/merlins-testnet/tx/$hash",
+    "accountExplorer": "https://explorer.merlins.world/merlins-testnet/account/$address",
+    "contractExplorer": "https://explorer.merlins.world/merlins-testnet/account/$address",
+    "idPrefix": "tesfury",
+    "testnet": true,
+    "backendEndpoint": "https://dapp-backend.testnet.merlins.world",
+    "addressPrefix": "fury",
+    "restEndpoint": "https://rest.fury.black",
+    "rpcEndpoint": "http://35.204.44.202:26657",
+    "stakeCurrency": "ufury",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0.025,
+      "high": 0.04
+    },
+    "cosmosFeatures": [
+      "stargate",
+      "ibc-transfer",
+      "cosmwasm",
+      "no-legacy-stdTx",
+      "ibc-go"
+    ],
+    "nameServiceContractAddress": "fury18etjzrma5604af50jjklk3wlkqcsxdrvmy6jzw5naw2t7kyv4rys3kpwky",
+    "nameServiceDefaultImage": "ipfs://bafkreieqcwmjcb64r42ygs6a4dswz63djzgayjn3rhzjber3e42cknawlm",
+    "nameServiceTLD": ".fury",
+    "vaultContractAddress": "fury13d26fzmvuvlvvxwt3ur0vkv8j6f28mf4nqfmxu3xk5r57wzxxglqut8ezk",
+    "riotContractAddressGen0": "fury162skshe30f43kv2q2rw6we2mu3pvz43lm2zrg4hq50jdd2fjjdjsvm8mc7",
+    "riotContractAddressGen1": "fury1afwrcs58afaka6ltynevwcvq8zhejr3ssn703c0hky5emh890vzsry5wp5",
+    "riotSquadStakingContractAddressV1": "fury15wl5lw9pxpedcekgqr8vk5xfpkrsax3reyfkkey458t6a7vv0d5ssark6m",
+    "riotSquadStakingContractAddressV2": "fury1gzk7kets2dfr7rcmzunkem0a23pn9ktkpjf0elxp38x42zpddt6qhvsp9l",
+    "distributorContractAddress": "fury1ff0ze096zcy5va5xhl7zenwt5vca6z9n0l8du7q7qsd7ftrcz0cqvd0vgc",
+    "riotersFooterContractAddress": "fury1m6g3l3j5t988zwmp965hrhsxvm8jrkf2ulw4gmwj8hx8pd84tvcqeearsd",
+    "secondaryDuringMintList": [
+      "fury18etjzrma5604af50jjklk3wlkqcsxdrvmy6jzw5naw2t7kyv4rys3kpwky",
+      "fury1afwrcs58afaka6ltynevwcvq8zhejr3ssn703c0hky5emh890vzsry5wp5"
+    ],
+    "excludeFromLaunchpadList": [
+      "fury1afwrcs58afaka6ltynevwcvq8zhejr3ssn703c0hky5emh890vzsry5wp5"
+    ],
+    "socialFeedContractAddress": "fury19y3xr6lghw04tj2ets8y70mrynlnflejanl2ys3n3c5vaasj358shjsk20",
+    "daoCw20CodeId": 99,
+    "daoFactoryCodeId": 100,
+    "daoCoreCodeId": 101,
+    "daoPreProposeSingleCodeId": 102,
+    "daoProposalSingleCodeId": 103,
+    "daoVotingCw20StakedCodeId": 104,
+    "daoCw20StakeCodeId": 105,
+    "daoCw4GroupCodeId": 106,
+    "daoVotingCw4CodeId": 109,
+    "daoFactoryContractAddress": "fury1r29chp8ufwgx9u3wr4sfk050aardhkzwve7nht6y06gvlaqutr3qt83z6r",
+    "coreDAOAddress": "fury1dy5h9q9zue4swxe9mzracm8gudp0fcf2ncllch6pfq9d0fq0ftgq546063"
+  },
+  {
+    "id": "cosmos-hub-theta",
+    "kind": "Cosmos",
+    "chainId": "theta-testnet-001",
+    "displayName": "Cosmos Hub Theta",
+    "icon": "icons/networks/cosmos-hub.svg",
+    "features": [],
+    "currencies": [
+      {
+        "denom": "uatom",
+        "displayName": "ATOM",
+        "decimals": 6,
+        "coingeckoId": "cosmos",
+        "icon": "icons/networks/cosmos-hub-circle.svg",
+        "kind": "native",
+        "color": "#5C26F5"
+      }
+    ],
+    "txExplorer": "https://explorer.theta-testnet.polypore.xyz/transactions/$hash",
+    "accountExplorer": "https://explorer.theta-testnet.polypore.xyz/accounts/$address",
+    "contractExplorer": "",
+    "idPrefix": "cosmtest",
+    "testnet": true,
+    "backendEndpoint": "https://dapp-backend.testnet.merlins.world",
+    "addressPrefix": "cosmos",
+    "restEndpoint": "https://cosmos-testnet-rpc.allthatnode.com:1317",
+    "rpcEndpoint": "https://cosmos-testnet-rpc.allthatnode.com:26657",
+    "stakeCurrency": "uatom",
+    "gasPriceStep": {
+      "low": 0.01,
+      "average": 0.025,
+      "high": 0.04
+    },
+    "cosmosFeatures": [
+      "stargate",
+      "ibc-transfer",
+      "cosmwasm",
+      "no-legacy-stdTx",
+      "ibc-go"
+    ]
+  },
+  {
+    "id": "ethereum-goerli",
+    "kind": "Ethereum",
+    "displayName": "Ethereum Goerli",
+    "icon": "icons/networks/ethereum.svg",
+    "features": [
+      "NFTMarketplace"
+    ],
+    "currencies": [
+      {
+        "denom": "0x0000000000000000000000000000000000000000",
+        "displayName": "GoerliETH",
+        "decimals": 18,
+        "coingeckoId": "ethereum",
+        "icon": "icons/networks/ethereum-circle.svg",
+        "kind": "native",
+        "color": "#232731"
+      }
+    ],
+    "idPrefix": "testeth",
+    "endpoint": "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
+    "txExplorer": "https://goerli.etherscan.io/tx/$hash",
+    "accountExplorer": "https://goerli.etherscan.io/address/$address",
+    "contractExplorer": "https://goerli.etherscan.io/address/$address",
+    "testnet": true,
+    "backendEndpoint": "https://dapp-backend.testnet.merlins.world",
+    "chainId": 5,
+    "alchemyApiKey": "TCahW5rzmCaegxHVyhXh3vmCG2sS9Yu3",
+    "theGraphEndpoint": "https://api.studio.thegraph.com/query/40379/merlins-goerli-indexer/v-test-01",
+    "vaultContractAddress": "0xaB30d7379EbfD146B77B0B4d6f3eB09BD725e4EF",
+    "riotContractAddress": "0x43cc70bf324d716782628bed38af97e4afe92f69"
+  },
+  {
+    "id": "ethereum",
+    "kind": "Ethereum",
+    "displayName": "Ethereum",
+    "icon": "icons/networks/ethereum.svg",
+    "features": [
+      "NFTMarketplace"
+    ],
+    "currencies": [
+      {
+        "denom": "0x0000000000000000000000000000000000000000",
+        "displayName": "ETH",
+        "decimals": 18,
+        "coingeckoId": "ethereum",
+        "icon": "icons/networks/ethereum-circle.svg",
+        "kind": "native",
+        "color": "#232731"
+      }
+    ],
+    "idPrefix": "eth",
+    "endpoint": "https://ethereum.publicnode.com",
+    "txExplorer": "https://etherscan.io/tx/$hash",
+    "accountExplorer": "https://etherscan.io/address/$address",
+    "contractExplorer": "https://etherscan.io/address/$address",
+    "testnet": false,
+    "backendEndpoint": "https://dapp-backend.mainnet.merlins.world",
+    "chainId": 1,
+    "alchemyApiKey": "xZ3FVF0o6q_4beg_afmCEzf4GSJErhId",
+    "theGraphEndpoint": "https://api.studio.thegraph.com/query/40379/merlins-mainnet/v1",
+    "vaultContractAddress": "0x6251B3384c8eD53e2Cc38d34c1f26ffE8d461B94",
+    "riotContractAddress": "0x8f8304ea566affeb96ad0ffb593bbebd8876d124"
+  },
+  {
+    "id": "juno",
+    "kind": "Cosmos",
+    "chainId": "juno-1",
+    "displayName": "Juno",
+    "icon": "icons/networks/juno.svg",
+    "features": [],
+    "currencies": [
+      {
+        "denom": "ujuno",
+        "displayName": "JUNO",
+        "decimals": 6,
+        "coingeckoId": "juno-network",
+        "icon": "icons/networks/juno-circle.svg",
+        "kind": "native",
+        "color": "#F0827D"
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+        "sourceNetwork": "cosmos-hub",
+        "sourceDenom": "uatom",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-1",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-207"
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+        "sourceNetwork": "osmosis",
+        "sourceDenom": "uosmo",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-0",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-42"
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/436B576861090C1C921D56BA1FAE481A04D2E938EBDFF55C4712670F9754AC40",
+        "sourceNetwork": "merlins",
+        "sourceDenom": "ufury",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-164",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-11"
+      }
+    ],
+    "txExplorer": "https://www.mintscan.io/juno/txs/$hash",
+    "accountExplorer": "https://www.mintscan.io/juno/account/$address",
+    "contractExplorer": "https://www.mintscan.io/juno/account/$address",
+    "idPrefix": "juno",
+    "testnet": false,
+    "backendEndpoint": "https://dapp-backend.mainnet.merlins.world",
+    "addressPrefix": "juno",
+    "restEndpoint": "https://lcd-juno.keplr.app",
+    "rpcEndpoint": "https://rpc-juno.keplr.app",
+    "stakeCurrency": "ujuno",
+    "gasPriceStep": {
+      "low": 0.01,
+      "average": 0.025,
+      "high": 0.04
+    },
+    "cosmosFeatures": [
+      "stargate",
+      "ibc-transfer",
+      "cosmwasm",
+      "no-legacy-stdTx",
+      "ibc-go"
+    ]
+  },
+  {
+    "id": "osmosis",
+    "kind": "Cosmos",
+    "chainId": "osmosis-1",
+    "displayName": "Osmosis",
+    "icon": "icons/networks/osmosis.svg",
+    "features": [
+      "Swap"
+    ],
+    "currencies": [
+      {
+        "denom": "uosmo",
+        "displayName": "OSMO",
+        "decimals": 6,
+        "coingeckoId": "osmosis",
+        "icon": "icons/networks/osmosis-circle.svg",
+        "kind": "native",
+        "color": "#A401D4"
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "sourceNetwork": "cosmos-hub",
+        "sourceDenom": "uatom",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-0",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-141"
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/EB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC",
+        "sourceNetwork": "merlins",
+        "sourceDenom": "ufury",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-362",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-0"
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/46B44899322F3CD854D2D46DEEF881958467CDD4B3B10086DA49296BBED94BED",
+        "sourceNetwork": "juno",
+        "sourceDenom": "ujuno",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-169",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-47"
+      }
+    ],
+    "txExplorer": "https://www.mintscan.io/osmosis/txs/$hash",
+    "accountExplorer": "https://www.mintscan.io/osmosis/account/$address",
+    "contractExplorer": "https://www.mintscan.io/osmosis/account/$address",
+    "idPrefix": "osmo",
+    "testnet": false,
+    "backendEndpoint": "https://dapp-backend.mainnet.merlins.world",
+    "addressPrefix": "osmo",
+    "restEndpoint": "https://lcd.osmosis.zone",
+    "rpcEndpoint": "https://rpc.osmosis.zone:443",
+    "stakeCurrency": "uosmo",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0.025,
+      "high": 0.04
+    },
+    "cosmosFeatures": [
+      "stargate",
+      "ibc-transfer",
+      "cosmwasm",
+      "no-legacy-stdTx",
+      "ibc-go"
+    ]
+  },
+  {
+    "id": "osmosis-testnet",
+    "kind": "Cosmos",
+    "chainId": "osmo-test-4",
+    "displayName": "Osmosis Testnet",
+    "icon": "icons/networks/osmosis.svg",
+    "features": [
+      "Swap"
+    ],
+    "currencies": [
+      {
+        "denom": "uosmo",
+        "displayName": "OSMO",
+        "decimals": 6,
+        "coingeckoId": "osmosis",
+        "icon": "icons/networks/osmosis-circle.svg",
+        "kind": "native",
+        "color": "#A401D4"
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "sourceNetwork": "cosmos-hub-theta",
+        "sourceDenom": "uatom",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-0",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-141"
+      },
+      {
+        "kind": "ibc",
+        "denom": "ibc/EB7FB9C8B425F289B63703413327C2051030E848CE4EAAEA2E51199D6D39D3EC",
+        "sourceNetwork": "merlins-testnet",
+        "sourceDenom": "ufury",
+        "sourceChannelPort": "transfer",
+        "sourceChannelId": "channel-362",
+        "destinationChannelPort": "transfer",
+        "destinationChannelId": "channel-0"
+      }
+    ],
+    "txExplorer": "https://testnet.mintscan.io/osmosis-testnet/txs/$hash",
+    "accountExplorer": "https://testnet.mintscan.io/osmosis-testnet/account/$address",
+    "contractExplorer": "https://testnet.mintscan.io/osmosis-testnet/account/$address",
+    "idPrefix": "testosmo",
+    "testnet": true,
+    "backendEndpoint": "https://dapp-backend.testnet.merlins.world",
+    "addressPrefix": "osmo",
+    "restEndpoint": "https://lcd-test.osmosis.zone",
+    "rpcEndpoint": "https://rpc-test.osmosis.zone:443",
+    "stakeCurrency": "uosmo",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0.025,
+      "high": 0.04
+    },
+    "cosmosFeatures": [
+      "stargate",
+      "ibc-transfer",
+      "cosmwasm",
+      "no-legacy-stdTx",
+      "ibc-go"
+    ]
+  },
+  {
+    "id": "gno-test3",
+    "kind": "Gno",
+    "displayName": "Gno Test3",
+    "icon": "icons/networks/gno.svg",
+    "features": [],
+    "currencies": [
+      {
+        "denom": "ugnot",
+        "displayName": "GNOT",
+        "decimals": 6,
+        "coingeckoId": "gno",
+        "icon": "icons/networks/gno.svg",
+        "kind": "native",
+        "color": "#232800"
+      }
+    ],
+    "stakeCurrency": "ugnot",
+    "idPrefix": "gnotest3",
+    "chainId": "test3",
+    "endpoint": "https://rpc.test3.gno.land",
+    "txExplorer": "https://etherscan.io/tx/$hash",
+    "accountExplorer": "https://etherscan.io/address/$address",
+    "contractExplorer": "https://etherscan.io/address/$address",
+    "testnet": true,
+    "backendEndpoint": "https://dapp-backend.mainnet.merlins.world",
+    "vaultContractAddress": "",
+    "nameServiceContractAddress": "gno.land/r/demo/users",
+    "nameServiceDefaultImage": "ipfs://bafkreignptjimiu7wuux6mk6uh4hb4odb6ff62ny4bvdokrhes7g67huse",
+    "gnowebURL": "https://test3.gno.land"
+  },
+  {
+    "id": "gno-dev",
+    "kind": "Gno",
+    "displayName": "Gno Dev",
+    "icon": "icons/networks/gno.svg",
+    "features": [
+      "Organizations",
+      "SocialFeed",
+      "UPP"
+    ],
+    "currencies": [
+      {
+        "denom": "ugnot",
+        "displayName": "GNOT",
+        "decimals": 6,
+        "coingeckoId": "gno",
+        "icon": "icons/networks/gno.svg",
+        "kind": "native",
+        "color": "#232800"
+      }
+    ],
+    "stakeCurrency": "ugnot",
+    "idPrefix": "gnodev",
+    "chainId": "dev",
+    "endpoint": "http://127.0.0.1:36657/http://localhost:26657",
+    "txExplorer": "https://etherscan.io/tx/$hash",
+    "accountExplorer": "https://etherscan.io/address/$address",
+    "contractExplorer": "https://etherscan.io/address/$address",
+    "testnet": true,
+    "backendEndpoint": "http://localhost:9090",
+    "vaultContractAddress": "",
+    "nameServiceContractAddress": "gno.land/r/demo/users",
+    "nameServiceDefaultImage": "ipfs://bafkreignptjimiu7wuux6mk6uh4hb4odb6ff62ny4bvdokrhes7g67huse",
+    "gnowebURL": "http://127.0.0.1:8888"
+  },
+  {
+    "id": "gno-merlins",
+    "kind": "Gno",
+    "displayName": "Gno Merlins",
+    "icon": "icons/networks/gno.svg",
+    "features": [
+      "Organizations",
+      "SocialFeed",
+      "UPP"
+    ],
+    "currencies": [
+      {
+        "denom": "ugnot",
+        "displayName": "GNOT",
+        "decimals": 6,
+        "coingeckoId": "gno",
+        "icon": "icons/networks/gno.svg",
+        "kind": "native",
+        "color": "#232800"
+      }
+    ],
+    "stakeCurrency": "ugnot",
+    "idPrefix": "gnofury",
+    "chainId": "merlins-1",
+    "endpoint": "https://testnet.gno.merlins.world:26658",
+    "txExplorer": "https://etherscan.io/tx/$hash",
+    "accountExplorer": "https://etherscan.io/address/$address",
+    "contractExplorer": "https://etherscan.io/address/$address",
+    "testnet": true,
+    "backendEndpoint": "https://dapp-backend.testnet.merlins.world",
+    "vaultContractAddress": "",
+    "nameServiceContractAddress": "gno.land/r/demo/users",
+    "nameServiceDefaultImage": "ipfs://bafkreignptjimiu7wuux6mk6uh4hb4odb6ff62ny4bvdokrhes7g67huse",
+    "daoRegistryPkgPath": "gno.land/r/demo/dao_registry_v5",
+    "modboardsPkgPath": "gno.land/r/demo/modboards_v3",
+    "gnowebURL": "https://testnet.gno.merlins.world"
+  }
+]
